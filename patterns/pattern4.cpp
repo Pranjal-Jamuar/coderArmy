@@ -11,7 +11,8 @@ void pattern4()
     cout << "Enter the number of rows:";
     cin >> rows;
 
-    cout << "Ascending Square Pattern"
+    cout << "Ascending Square Pattern";
+    cout << endl;
 
     for (int i = 1; i <= rows; i++)
     {
@@ -24,7 +25,8 @@ void pattern4()
 
     cout << endl;
     cout << endl;
-    cout << "Ascending Cube Pattern"
+    cout << "Ascending Cube Pattern";
+    cout << endl;
 
     for (int i = 1; i <= rows; i++)
     {

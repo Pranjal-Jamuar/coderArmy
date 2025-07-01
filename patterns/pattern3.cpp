@@ -10,7 +10,8 @@ void pattern3()
     int rows;
     cout << "Enter the number of rows:";
     cin >> rows;
-    cout << "Descending Number Pattern"
+    cout << "Descending Number Pattern";
+    cout << endl;
 
      for (int i  = 1; i <= rows; i++)
      {
