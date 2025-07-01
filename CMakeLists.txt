@@ -8,4 +8,5 @@ add_executable(coderArmy main.cpp
         patterns/pattern2.cpp
         patterns/pattern3.cpp
         patterns/pattern4.cpp
-        patterns/pattern5.cpp)
+        patterns/pattern5.cpp
+        patterns/pattern6.cpp)
