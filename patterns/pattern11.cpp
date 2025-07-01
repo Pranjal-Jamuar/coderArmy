@@ -5,18 +5,18 @@
 #include<iostream>
 using namespace std;
 
-void pattern10()
+void pattern11()
 {
     int rows;
-    cout << "Enter the number of rows:";
+    cout << "Enter the number of rows: ";
     cin >> rows;
 
     for (int i = 1; i <= rows; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (int j = i; j >= 1; j--)
         {
-            cout << i << " ";
+            cout << j << " ";
         }
-        cout <<endl;
+        cout << endl;
     }
 }
