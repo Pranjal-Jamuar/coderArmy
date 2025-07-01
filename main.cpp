@@ -1,12 +1,33 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
+// Declare the pattern functions
 void pattern1();
+void pattern2();
+// void pattern3();
 
-int main()
-{
-    pattern1();
+int main() {
+    int choice;
+    cout << "Choose a pattern to run:\n";
+    cout << "Pattern 1\n";
+    cout << "Pattern 2\n";
+    // cout << "3. Pyramid pattern\n";
+    cout << "Enter your choice (1-3): ";
+    cin >> choice;
+
+    switch (choice) {
+    case 1:
+        pattern1();
+        break;
+    case 2:
+        pattern2();
+        break;
+    // case 3:
+    //     pattern3();
+    //     break;
+    default:
+        cout << "Invalid choice. Try again.\n";
+    }
+
     return 0;
 }
-    // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
-// }
