@@ -5,7 +5,7 @@
 #include<iostream>
 using namespace std;
 
-int main()
+void pattern1()
 {
     int rows;
     cout << "Enter the number of rows:";
@@ -19,6 +19,4 @@ int main()
         }
         cout << endl;
     }
-
-    return 0;
 }
