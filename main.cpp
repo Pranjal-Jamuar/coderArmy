@@ -4,14 +4,14 @@ using namespace std;
 // Declare the pattern functions
 void pattern1();
 void pattern2();
-// void pattern3();
+void pattern3();
 
 int main() {
     int choice;
     cout << "Choose a pattern to run:\n";
     cout << "Pattern 1\n";
     cout << "Pattern 2\n";
-    // cout << "3. Pyramid pattern\n";
+    cout << "Pattern 3\n";
     cout << "Enter your choice (1-3): ";
     cin >> choice;
 
@@ -22,9 +22,9 @@ int main() {
     case 2:
         pattern2();
         break;
-    // case 3:
-    //     pattern3();
-    //     break;
+    case 3:
+        pattern3();
+        break;
     default:
         cout << "Invalid choice. Try again.\n";
     }
