@@ -16,4 +16,5 @@ add_executable(coderArmy main.cpp
         patterns/pattern10.cpp
         patterns/pattern11.cpp
         patterns/pattern12.cpp
-        patterns/pattern13.cpp)
+        patterns/pattern13.cpp
+        patterns/pattern14.cpp)

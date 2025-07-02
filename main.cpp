@@ -15,6 +15,7 @@ void pattern10();
 void pattern11();
 void pattern12();
 void pattern13();
+void pattern14();
 
 int main() {
     int choice;
@@ -32,6 +33,7 @@ int main() {
     cout << "Pattern 11\n";
     cout << "Pattern 12\n";
     cout << "Pattern 13\n";
+    cout << "Pattern 14\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -74,6 +76,9 @@ int main() {
         break;
     case 13:
         pattern13();
+        break;
+    case 14:
+        pattern14();
         break;
     default:
         cout << "Invalid choice. Try again.\n";
