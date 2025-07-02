@@ -11,17 +11,38 @@ void pattern17()
     cout << "Enter the number of rows: ";
     cin >> n;
 
-    for (int i  = 0; i < n; i++)
+
+    //  Old method
+
+    // for (int i  = 0; i < n; i++)
+    // {
+    //     for (int j = 0; j < n; j++)
+    //     {
+    //         if (j < n - i - 1)
+    //         {
+    //             cout <<"  ";
+    //         }
+    //         else
+    //         {
+    //             cout << i + 1<< " " ;
+    //         }
+    //     }
+    //     cout << endl;
+    // }
+
+    //Better Method
+
+    for (int i  = 1; i <= n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 1; j <= n; j++)
         {
-            if (j < n - i - 1)
+            if (j > n - i)
             {
-                cout <<"  ";
+                cout << i << " ";
             }
             else
             {
-                cout << i + 1<< " " ;
+                cout << "  ";
             }
         }
         cout << endl;
