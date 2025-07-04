@@ -30,4 +30,4 @@ add_executable(coderArmy main.cpp
         patterns/pattern24.cpp
         patterns/pattern25.cpp
         patterns/pattern26.cpp
-        patterns/practice/tableUsingWhile.cpp)
+        practice/tableUsingWhile.cpp)
