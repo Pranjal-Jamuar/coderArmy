@@ -23,4 +23,5 @@ add_executable(coderArmy main.cpp
         patterns/pattern17.cpp
         patterns/pattern18.cpp
         patterns/pattern19.cpp
-        patterns/pattern20.cpp)
+        patterns/pattern20.cpp
+        patterns/pattern21.cpp)
