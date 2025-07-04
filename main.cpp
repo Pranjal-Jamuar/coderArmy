@@ -28,36 +28,38 @@ void pattern23();
 void pattern24();
 void pattern25();
 void pattern26();
+void tableUsingWhile();
 
 int main() {
     int choice;
-    cout << "Choose a pattern to run:\n";
-    cout << "Pattern 1\n";
-    cout << "Pattern 2\n";
-    cout << "Pattern 3\n";
-    cout << "Pattern 4\n";
-    cout << "Pattern 5\n";
-    cout << "Pattern 6\n";
-    cout << "Pattern 7\n";
-    cout << "Pattern 8\n";
-    cout << "Pattern 9\n";
-    cout << "Pattern 10\n";
-    cout << "Pattern 11\n";
-    cout << "Pattern 12\n";
-    cout << "Pattern 13\n";
-    cout << "Pattern 14\n";
-    cout << "Pattern 15\n";
-    cout << "Pattern 16\n";
-    cout << "Pattern 17\n";
-    cout << "Pattern 18\n";
-    cout << "Pattern 19\n";
-    cout << "Pattern 20\n";
-    cout << "Pattern 21\n";
-    cout << "Pattern 22\n";
-    cout << "Pattern 23\n";
-    cout << "Pattern 24\n";
-    cout << "Pattern 25\n";
-    cout << "Pattern 26\n";
+    cout << "Choose a number to run:\n";
+    cout << "01. Pattern 1\n";
+    cout << "02. Pattern 2\n";
+    cout << "03. Pattern 3\n";
+    cout << "04. Pattern 4\n";
+    cout << "05. Pattern 5\n";
+    cout << "06. Pattern 6\n";
+    cout << "07. Pattern 7\n";
+    cout << "08. Pattern 8\n";
+    cout << "09. Pattern 9\n";
+    cout << "10. Pattern 10\n";
+    cout << "11. Pattern 11\n";
+    cout << "12. Pattern 12\n";
+    cout << "13. Pattern 13\n";
+    cout << "14. Pattern 14\n";
+    cout << "15. Pattern 15\n";
+    cout << "16. Pattern 16\n";
+    cout << "17. Pattern 17\n";
+    cout << "18. Pattern 18\n";
+    cout << "19. Pattern 19\n";
+    cout << "20. Pattern 20\n";
+    cout << "21. Pattern 21\n";
+    cout << "22. Pattern 22\n";
+    cout << "23. Pattern 23\n";
+    cout << "24. Pattern 24\n";
+    cout << "25. Pattern 25\n";
+    cout << "26. Pattern 26\n";
+    cout << "27. Table of a number using while loop\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -139,6 +141,9 @@ int main() {
         break;
     case 26:
         pattern26();
+        break;
+    case 27:
+        tableUsingWhile();
         break;
     default:
         cout << "Invalid choice. Try again.\n";
