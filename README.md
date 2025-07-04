@@ -14,9 +14,10 @@ This repository contains my personal DSA practice — starting with logic buildi
 ---
 
 ## 📂 Folder Structure
-/patterns → Pattern printing problems
-/main.cpp → Quick tests / scratchpad
-/CMakeLists.txt → CLion config
+- /patterns → Pattern printing problems
+- /practice → Practice folder
+- /main.cpp → Quick tests / scratchpad
+- /CMakeLists.txt → CLion config
 
 
 ---
