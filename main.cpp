@@ -28,6 +28,7 @@ void pattern23();
 void pattern24();
 void pattern25();
 void pattern26();
+void pattern27();
 void tableUsingWhile();
 
 int main() {
@@ -59,7 +60,8 @@ int main() {
     cout << "24. Pattern 24\n";
     cout << "25. Pattern 25\n";
     cout << "26. Pattern 26\n";
-    cout << "27. Table of a number using while loop\n";
+    cout << "27. Pattern 27\n";
+    cout << "28. Table of a number using while loop\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -143,6 +145,9 @@ int main() {
         pattern26();
         break;
     case 27:
+        pattern27();
+        break;
+    case 28:
         tableUsingWhile();
         break;
     default:
