@@ -31,4 +31,5 @@ add_executable(coderArmy main.cpp
         patterns/pattern25.cpp
         patterns/pattern26.cpp
         practice/tableUsingWhile.cpp
-        patterns/pattern27.cpp)
+        patterns/pattern27.cpp
+        practice/printNumbersInRange.cpp)
