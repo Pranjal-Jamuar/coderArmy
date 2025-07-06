@@ -31,6 +31,7 @@ void pattern26();
 void pattern27();
 void tableUsingWhile();
 void printNumbersInRange();
+void printCharactersInRange();
 
 int main() {
     int choice;
@@ -63,7 +64,8 @@ int main() {
     cout << "26. Pattern 26\n";
     cout << "27. Pattern 27\n";
     cout << "28. Table of a number using while loop\n";
-    cout << "29. Print number in Range\n";
+    cout << "29. Print numbers in range\n";
+    cout << "30. Print characters in range\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -154,6 +156,9 @@ int main() {
         break;
     case 29:
         printNumbersInRange();
+        break;
+    case 30:
+        printCharactersInRange();
         break;
     default:
         cout << "Invalid choice. Try again.\n";
