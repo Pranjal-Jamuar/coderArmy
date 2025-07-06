@@ -32,6 +32,7 @@ void pattern27();
 void tableUsingWhile();
 void printNumbersInRange();
 void printCharactersInRange();
+void printNumbersBackwardInRange();
 
 int main() {
     int choice;
@@ -66,6 +67,7 @@ int main() {
     cout << "28. Table of a number using while loop\n";
     cout << "29. Print numbers in range\n";
     cout << "30. Print characters in range\n";
+    cout << "31. Print numbers backward in range\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -159,6 +161,9 @@ int main() {
         break;
     case 30:
         printCharactersInRange();
+        break;
+    case 31:
+        printNumbersBackwardInRange();
         break;
     default:
         cout << "Invalid choice. Try again.\n";
