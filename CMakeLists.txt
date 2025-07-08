@@ -34,4 +34,5 @@ add_executable(coderArmy main.cpp
         practice/tableUsingWhile.cpp
         practice/printNumbersInRange.cpp
         practice/printCharactersInRange.cpp
-        practice/printNumbersBackwardInRange.cpp)
+        practice/printNumbersBackwardInRange.cpp
+        practice/printNumbersInRangeWithFixedIncrement.cpp)
