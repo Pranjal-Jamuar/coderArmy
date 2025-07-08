@@ -11,9 +11,12 @@ void sumOfNaturalNumbersSquared()
     cout << "Enter the range of numbers you want to sum: ";
     cin >> range;
 
-    for (int i = 1; i <= range; i++)
-    {
-        sum += i * i;
-    }
-    cout << sum << endl;
+    //basic
+    // for (int i = 1; i <= range; i++)
+    // {
+    //     sum += i * i;
+    // }
+    // cout << sum << endl;
+
+    cout << range * (range + 1) * (2 * range + 1) / 6 << endl;
 }
