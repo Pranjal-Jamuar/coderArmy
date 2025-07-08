@@ -37,6 +37,7 @@ void printNumbersInRangeWithFixedIncrement();
 void powerOfANumber();
 void printSumOfNaturalNumbers();
 void sumOfNaturalNumbersSquared();
+void factorial();
 
 int main() {
     int choice;
@@ -76,6 +77,7 @@ int main() {
     cout << "33. Print result of any number to its power value\n";
     cout << "34. Print sum of N natural numbers\n";
     cout << "35. Print sum of N natural numbers squared\n";
+    cout << "36. Calculate factorial of a number\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -184,6 +186,9 @@ int main() {
         break;
     case 35:
         sumOfNaturalNumbersSquared();
+        break;
+    case 36:
+        factorial();
         break;
     default:
         cout << "Invalid choice. Try again.\n";

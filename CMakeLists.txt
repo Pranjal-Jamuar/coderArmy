@@ -38,4 +38,5 @@ add_executable(coderArmy main.cpp
         practice/printNumbersInRangeWithFixedIncrement.cpp
         practice/calculatePowerOfANumber.cpp
         practice/printSumOfNNaturalNumbers.cpp
-        practice/sumOfNaturalNumbersSquared.cpp)
+        practice/sumOfNaturalNumbersSquared.cpp
+        practice/factorial.cpp)
