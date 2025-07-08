@@ -41,4 +41,5 @@ add_executable(coderArmy main.cpp
         practice/sumOfNaturalNumbersSquared.cpp
         practice/factorial.cpp
         practice/checkPrime.cpp
-        practice/fibonacciSeries.cpp)
+        practice/fibonacciSeries.cpp
+        practice/random.cpp)
