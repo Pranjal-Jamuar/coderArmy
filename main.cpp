@@ -37,7 +37,7 @@ void printNumbersInRangeWithFixedIncrement();
 void powerOfANumber();
 void printSumOfNaturalNumbers();
 void sumOfNaturalNumbersSquared();
-int factorial(int n);
+double factorial(int n);
 
 int main() {
     int choice;

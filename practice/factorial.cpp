@@ -5,7 +5,7 @@
 #include<iostream>
 using namespace std;
 
-int factorial(int num)
+double factorial(int num)
 {
     //basic
     // int number, result = 1;
