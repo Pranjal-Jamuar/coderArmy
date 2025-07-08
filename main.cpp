@@ -38,6 +38,7 @@ void powerOfANumber();
 void printSumOfNaturalNumbers();
 void sumOfNaturalNumbersSquared();
 double factorial(int n);
+void checkPrime();
 
 int main() {
     int choice;
@@ -78,6 +79,7 @@ int main() {
     cout << "34. Print sum of N natural numbers\n";
     cout << "35. Print sum of N natural numbers squared\n";
     cout << "36. Calculate factorial of a number\n";
+    cout << "37. Check if a number is prime or not\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -192,6 +194,9 @@ int main() {
         cout << "Enter the number: ";
         cin >> n;
         cout << "The factorial is: " <<factorial(n);
+        break;
+    case 37:
+        checkPrime();
         break;
     default:
         cout << "Invalid choice. Try again.\n";

@@ -39,4 +39,5 @@ add_executable(coderArmy main.cpp
         practice/calculatePowerOfANumber.cpp
         practice/printSumOfNNaturalNumbers.cpp
         practice/sumOfNaturalNumbersSquared.cpp
-        practice/factorial.cpp)
+        practice/factorial.cpp
+        practice/checkPrime.cpp)
