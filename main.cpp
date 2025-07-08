@@ -36,6 +36,7 @@ void printNumbersBackwardInRange();
 void printNumbersInRangeWithFixedIncrement();
 void powerOfANumber();
 void printSumOfNaturalNumbers();
+void sumOfNaturalNumbersSquared();
 
 int main() {
     int choice;
@@ -74,6 +75,7 @@ int main() {
     cout << "32. Print numbers in range with a fixed increment value\n";
     cout << "33. Print result of any number to its power value\n";
     cout << "34. Print sum of N natural numbers\n";
+    cout << "35. Print sum of N natural numbers squared\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -179,6 +181,9 @@ int main() {
         break;
     case 34:
         printSumOfNaturalNumbers();
+        break;
+    case 35:
+        sumOfNaturalNumbersSquared();
         break;
     default:
         cout << "Invalid choice. Try again.\n";

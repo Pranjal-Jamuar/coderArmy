@@ -37,4 +37,5 @@ add_executable(coderArmy main.cpp
         practice/printNumbersBackwardInRange.cpp
         practice/printNumbersInRangeWithFixedIncrement.cpp
         practice/calculatePowerOfANumber.cpp
-        practice/printSumOfNNaturalNumbers.cpp)
+        practice/printSumOfNNaturalNumbers.cpp
+        practice/sumOfNaturalNumbersSquared.cpp)
