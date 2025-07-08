@@ -5,22 +5,32 @@
 #include<iostream>
 using namespace std;
 
-void factorial()
+int factorial(int num)
 {
-    int number, result = 1;
-    cout << "Enter the number whose factorial you want to calculate: ";
-    cin >> number;
+    //basic
+    // int number, result = 1;
+    // cout << "Enter the number whose factorial you want to calculate: ";
+    // cin >> number;
 
-    if (number == 0 || number == 1)
+    // if (number == 0 || number == 1)
+    // {
+    //     cout << "Factorial is : " << result << endl;
+    // } else
+    // {
+    //     while (number > 0)
+    //     {
+    //         result *= number;
+    //         number --;
+    //     }
+    //     cout << "The factorial of the given number is: " << result << endl;
+    // }
+
+    //recursion
+    if (num == 0 || num == 1)
     {
-        cout << "Factorial is : " << result << endl;
+        return 1;
     } else
     {
-        while (number > 0)
-        {
-            result *= number;
-            number --;
-        }
-        cout << "The factorial of the given number is: " << result << endl;
+        return num * factorial(num - 1);
     }
 }
