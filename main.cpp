@@ -39,7 +39,7 @@ void printSumOfNaturalNumbers();
 void sumOfNaturalNumbersSquared();
 double factorial(int n);
 void checkPrime();
-void fibonacciSeries();
+int fibonacciSeries(int num);
 
 int main() {
     int choice;
@@ -201,7 +201,16 @@ int main() {
         checkPrime();
         break;
     case 38:
-        fibonacciSeries();
+        int terms;
+        cout << "Enter how many Fibonacci numbers to print: ";
+        cin >> terms;
+
+        cout << "Fibonacci Series: ";
+        for (int i = 0; i < terms; i++)
+        {
+            cout << fibonacciSeries(i) << " ";
+        }
+        cout << endl;
         break;
     default:
         cout << "Invalid choice. Try again.\n";

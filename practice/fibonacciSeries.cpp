@@ -5,24 +5,33 @@
 #include<iostream>
 using namespace std;
 
-void fibonacciSeries()
+int fibonacciSeries(int num)
 {
-    int n;
-    cout << "Enter the range: ";
-    cin >> n;
 
-    int a = 0, b = 1;
+    //Version 1
 
-    if (n <= 0) return;
+    // int n;
+    // cout << "Enter the range: ";
+    // cin >> n;
+    //
+    // int a = 0, b = 1;
+    //
+    // if (n <= 0) return;
+    //
+    // cout << "Fibonacci Series: ";
+    //
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cout << a << " ";
+    //     int next = a + b;
+    //     a = b;
+    //     b = next;
+    // }
+    // cout << endl;
 
-    cout << "Fibonacci Series: ";
+    //Recursive Version
 
-    for (int i = 0; i < n; i++)
-    {
-        cout << a << " ";
-        int next = a + b;
-        a = b;
-        b = next;
-    }
-    cout << endl;
+    if (num == 0) return 0;
+    if (num == 1) return 1;
+    return fibonacciSeries(num - 1) + fibonacciSeries(num - 2);
 }
