@@ -39,6 +39,7 @@ void printSumOfNaturalNumbers();
 void sumOfNaturalNumbersSquared();
 double factorial(int n);
 void checkPrime();
+void fibonacciSeries();
 
 int main() {
     int choice;
@@ -80,6 +81,7 @@ int main() {
     cout << "35. Print sum of N natural numbers squared\n";
     cout << "36. Calculate factorial of a number\n";
     cout << "37. Check if a number is prime or not\n";
+    cout << "38. Print fibonacci series\n";
     cout << "Enter your choice: ";
     cin >> choice;
 
@@ -197,6 +199,9 @@ int main() {
         break;
     case 37:
         checkPrime();
+        break;
+    case 38:
+        fibonacciSeries();
         break;
     default:
         cout << "Invalid choice. Try again.\n";
