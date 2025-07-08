@@ -10,9 +10,12 @@ using namespace std;
      cout << "Enter the range of natural numbers: ";
      cin >> range;
 
-     for (int i = 1; i <= range; i++)
-     {
-         sum += i;
-     }
-     cout << sum;
+     // Basic
+     // for (int i = 1; i <= range; i++)
+     // {
+     //     sum += i;
+     // }
+     // cout << sum;
+
+     cout << (range * (range + 1)) / 2;
  }
